@@ -13,18 +13,19 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <a class="main-title" href="#home">Home</a>
-            <a class="main-title " href="#sobreMi">About me</a>
-            <a class="main-title " href="#skills">Skills</a>
-            <a class="main-title " href="#contacto">Contacto</a>
+            <a href="#home">Home</a>
+            <a href="#sobreMi">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projectos">Projectos</a>
+            <a href="#contacto">Contacto</a>
         </nav>
     </header>
     <section class="sec-01" id="home">
         <div class="container">
             <h2 class="main-title">Portafolio</h2>
             <div class="content">
-                <div class="image">
-                    <img src="./img/matrix-6016_256.gif" alt="">
+                <div class="image uno">
+                    <img src="./img/home.gif" alt="" width="150px">
                 </div>
                 <div class="text-box">
                     <h1>Juan David Sepulveda Rojas</h1>
@@ -48,48 +49,78 @@
                     <p>Soy un apasionado por el mundo de la tecnologfa, me desempeño como Desarrollador Backend Junior.
                         Mi enfoque se centra en la creacion de aplicaciones utilizando <span class="lenguaje">las herraminetas que domino Node.js, Express, MongoDB y React.</span>
                         Soy una persona proactiva, excelente companero de equipo y responsable. Disfruto mucho aprender cosas nuevas y dinamico donde poder compartir mi experiencia y a su vez sumar nuevos conocimientos. Me considero una persona amigable, sociable, me gusta descubrir y aprender todos los dias, me considero alguien autonomo y Ifder ante mis amigos.</p>
-                    <div class="media-icons">
-                        <a href="#" class="icon"><i class="fab fa-html5 color"></i></a>
-                        <a href="#" class="icon"><i class="fab fa-css3-alt"></i></a>
-                        <a href="#" class="icon"><i class="fab fa-bootstrap"></i></a>
-                        <a href="#" class="icon"><i class="fab fa-js-square"></i></a>
-                        <a href="#" class="icon"><i class="fab fa-react"></i></a>
-                        <a href="#" class="icon"><i class="fab fa-python"></i></a>
-                        <a href="#" class="icon"><i class="fab fa-php"></i></a>
-                        <a href="#" class="icon"><i class="fab fa-node"></i></a>
-                        <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="sec-03" id="skills">
         <div class="container">
-            <h3 class="section-title">Proyectos</h3>
+            <h3 class="section-title">Skills</h3>
             <div class="content">
             <div class="image">
-                <img src="./img/foto.jpeg" alt="">
+                <img src="./img/skills.gif" alt="">
             </div>
             <div class="info">
-                <h4 class="info-title">Tiempo y Espacio</h4>
-                <p>Rick y Morty se encontraban a bordo de la nave espacial, zarpando hacia las vastas profundidades del espacio. Con el destello de las estrellas y la inmensidad del universo extendiéndose ante ellos.</p>
+                <h2 class="sub">Front-End</h2>
+                <div class="skills-info">
+                    <li><a href="#"> <i class="fab fa-html5"></i>HTML</a></li>
+                    <li><a href="#"> <i class="fab fa-css3-alt"></i>CSS</a></li>
+                    <li><a href="#"> <i class="fab fa-bootstrap"></i>Bootstrap</a></li>
+                    <li><a href="#"> <i class="fab fa-js-square"></i>Javascript</a></li>
+                    <li><a href="#"> <i class="fab fa-react"></i>React</a></li>
+                </div>
+                <h2 class="sub">Back-End</h2>
+                <div class="skills-info">
+                    <li><a href="#"> <i class="fab fa-python"></i>Python</a></li>
+                    <li><a href="#"> <i class="fab fa-php"></i>PHP</a></li>
+                    <li><a href="#"> <i class="fab fa-node-js"></i>Node.JS</a></li>
+                </div>
+                <h2 class="sub">Bases de datos</h2>
+                <div class="skills-info">
+                    <li><a href="#"> <i class="fas fa-database"></i>MYSQL</a></li>
+                    <li><a href="#"> <i class="fas fa-database"></i>MongoDB</a></li>
+                </div>
             </div>
         </div>
     </div>
     </section>
-    <section class="sec-04" id="contacto">
+    <section class="sec-04" id="projectos">
+        <h3 class="section-title">Projectos</h3>
+        <div class="container">
+            <div class="content">
+                <div class="info">
+                    <h4 class="info-title">Bacteriologia RVG</h4>
+                    <h3>FullStack</h3>
+                    <p>Esta plataforma eficiente gestiona el registro de pacientes y exámenes médicos. Permite a los profesionales de la salud obtener, agregar y actualizar información mediante métodos simples. Facilita el seguimiento de datos relevantes y garantiza una gestión eficiente de registros clínicos a través de operaciones como obtener, agregar y actualizar información de pacientes y exámenes médicos.</p>
+                </div>
+                <div class="imagefig">
+                    <a href="https://github.com/sepulveda272/Prefiltro_juan_david_sepulveda" target="_blank" class="actua"><img src="./img/figma.png" alt="" class="actua"></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h4 class="info-title">Alquiler</h4>
+                    <h3>Back-End</h3>
+                    <p>La presente documentación describe la iniciativa de mejora del sistema de gestión de alquiler y reservas de una empresa dedicada al alquiler de autos. El objetivo principal es optimizar los procesos internos y proporcionar un servicio más eficiente a los clientes. Actualmente, la empresa utiliza una base de datos MongoDB, pero enfrenta desafíos en la integración de información y en la organización del proceso de registro de entrega y devolución de vehículos.</p>
+                </div>
+                <div class="imagefig">
+                    <a href="https://github.com/sepulveda272/Alquiler_campus    " target="_blank" class="actua"><img src="./img/back.png" alt="" class="actua"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-05" id="contacto">
         <div class="container">
             <h3 class="section-title">Contacto</h3>
             <div class="content">
                 <div class="media-info">
-                    <li><a href="#"> <i class="fab fa-github"></i>Git hub</a></li>
-                    <li><a href="#"> <i class="fab fa-linkedin"></i>Linkedin</a></li>
-                    <li><a href="#"> <i class="fas fa-envelope"></i>Gmail</a></li>
-                    <li><a href="#"> <i class="fab fa-instagram"></i>Instagram</a></li>
+                    <li><a href="https://github.com/sepulveda272" target="_blank"> <i class="fab fa-github"></i>Git hub</a></li>
+                    <li><a href="https://www.linkedin.com/in/juan-david-sepulveda-rojas-71a67a29b/" target="_blank"> <i class="fab fa-linkedin"></i>Linkedin</a></li>
+                    <li><a href="mailto:sepulvedarojasjuandavid@gmail.com"> <i class="fas fa-envelope"></i>Gmail</a></li>
+                    <li><a href=""> <i class="fas fa-download"></i>Descargar CV</a></li>
                 </div>
-                <div class="image">
-                    <img src="./img/30540-god-of-war.jpg" alt="">
+                <div class="image dos">
+                    <img src="./img/contacto.jpeg" alt="">
                 </div>
             </div>
         </div>
@@ -109,10 +140,9 @@
         ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
 
 
-        ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top'}); 
+        ScrollReveal().reveal('.sec-02 .image,.imagefig, .sec-03 .image', { delay: 500, origin: 'top'}); 
         ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 }); 
+        ScrollReveal().reveal('.skills-info li, .image', { delay: 500, origin: 'right', interval: 200 }); 
 </script>
-
-
 </body>
 </html>
